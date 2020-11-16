@@ -1,0 +1,13 @@
+<h1>{{ title | uppercase }} app is running! (2 * 2 = {{ 2 * 2 }})</h1>
+<header>
+    <nav>
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/about">About</a></li>
+          <li><a routerLink="/count">Count</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <router-outlet></router-outlet>
+</main>
